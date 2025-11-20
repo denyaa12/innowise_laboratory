@@ -1,0 +1,178 @@
+Index: lecture_2/profile.py
+===================================================================
+diff --git a/lecture_2/profile.py b/lecture_2/profile.py
+deleted file mode 100644
+--- a/lecture_2/profile.py	(revision 4dde53ca36d6df1b48758185bce4bd93cdda62e2)
++++ /dev/null	(revision 4dde53ca36d6df1b48758185bce4bd93cdda62e2)
+@@ -1,50 +0,0 @@
+-def generate_profile(age):
+-    if 0 <= age <= 12:
+-        return "Child"
+-    elif 13 <= age <= 19:
+-        return "Teenager"
+-    elif age >= 20:
+-        return "Adult"
+-    else:
+-        return "Invalid age"
+-
+-year = 2025
+-
+-user_name = input("Enter your full name: ")
+-print(f"Nice to meet you, {user_name}!")
+-
+-birth_year_str = input("Enter your birth year: ")
+-birth_year = int(birth_year_str)
+-
+-current_age = year - birth_year
+-print(f"Your current age: {current_age}")
+-
+-hobbies = []
+-
+-while True:
+-    hobby = input("Enter a favorite hobby or type 'stop' to finish: ")
+-    if hobby.lower() == "stop":
+-        break
+-    hobbies.append(hobby)
+-
+-life_stage = generate_profile(current_age)
+-
+-user_profile = {
+-    "name": user_name,
+-    "age": current_age,
+-    "stage": life_stage,
+-    "hobbies": hobbies
+-}
+-
+-print("\nUser Profile")
+-print(f"Name: {user_profile['name']}")
+-print(f"Current Age: {user_profile['age']}")
+-print(f"Life Stage: {user_profile['stage']}")
+-
+-# Check if hobbies list is empty
+-if len(user_profile['hobbies']) == 0:
+-    print("You didn't mention any hobbies.")
+-else:
+-    print(f"Favorite Hobbies ({len(user_profile['hobbies'])}):")
+-    for hobby in user_profile['hobbies']:
+-        print(f"  - {hobby}")
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1763631332606)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1763631332606)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1763631332652)
++++ b/.idea/vcs.xml	(date 1763631332652)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"16ca4dd8-7851-4c0a-8e51-cbf043d111e8\" name=\"Changes\" comment=\"Create mini-profile\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"denyaa12\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/denyaa12/innowise_laboratory.git\",\r\n    \"accountId\": \"ae127b07-dcf2-4a0f-be0d-b4aca317b72b\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 4\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"35jiYSbVLM3B7lzBNeltYDLVQOS\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/ASUS/Desktop/innowise/all_projects/my_project/innowise_laboratory\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"16ca4dd8-7851-4c0a-8e51-cbf043d111e8\" name=\"Changes\" comment=\"\" />\r\n      <created>1763629928933</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1763629928933</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Create mini-profile\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763630146394</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763630146394</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Create mini-profile\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Create mini-profile\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4dde53ca36d6df1b48758185bce4bd93cdda62e2)
++++ b/.idea/workspace.xml	(date 1763631313277)
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="16ca4dd8-7851-4c0a-8e51-cbf043d111e8" name="Changes" comment="Create mini-profile" />
++    <list default="true" id="16ca4dd8-7851-4c0a-8e51-cbf043d111e8" name="Changes" comment="I create mini profile" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -17,21 +17,21 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "denyaa12"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;denyaa12&quot;
+   }
+-}]]></component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/denyaa12/innowise_laboratory.git",
+-    "accountId": "ae127b07-dcf2-4a0f-be0d-b4aca317b72b"
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/denyaa12/innowise_laboratory.git&quot;,
++    &quot;accountId&quot;: &quot;ae127b07-dcf2-4a0f-be0d-b4aca317b72b&quot;
+   }
+-}]]></component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 4
+-}]]></component>
++}</component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 4
++}</component>
+   <component name="ProjectId" id="35jiYSbVLM3B7lzBNeltYDLVQOS" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+@@ -43,7 +43,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+     "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "master",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "last_opened_file_path": "C:/Users/ASUS/Desktop/innowise/all_projects/my_project/innowise_laboratory"
+   }
+ }]]></component>
+@@ -70,11 +70,20 @@
+       <option name="project" value="LOCAL" />
+       <updated>1763630146394</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="I create mini profile">
++      <option name="closed" value="true" />
++      <created>1763631176066</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1763631176066</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Create mini-profile" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Create mini-profile" />
++    <MESSAGE value="I create mini profile" />
++    <option name="LAST_COMMIT_MESSAGE" value="I create mini profile" />
+   </component>
+ </project>
+\ No newline at end of file
