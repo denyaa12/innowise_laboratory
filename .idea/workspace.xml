@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="16ca4dd8-7851-4c0a-8e51-cbf043d111e8" name="Changes" comment="I create mini profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lecture_2/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_2/task2.py" afterDir="false" />
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83f97557-4611-4aa8-bc0a-a9bf4e6275d7" name="Changes" comment="Initial commit: Project structure and gitignore&#10;Add virtual environment">
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture_1/task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture_1/main.py" afterDir="false" />
+>>>>>>> fdb8596da9d56bfc11d2b4dd580907ff0bc48d9c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +28,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--follow-tags" />
         <option name="title" value="Current Branch" />
       </GitPushTagMode>
+=======
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+>>>>>>> fdb8596da9d56bfc11d2b4dd580907ff0bc48d9c
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -39,13 +56,20 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
+<<<<<<< HEAD
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="35jiYSbVLM3B7lzBNeltYDLVQOS" />
+=======
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="35INSmCO6ubxglDa9MtcyuqbFLa" />
+>>>>>>> fdb8596da9d56bfc11d2b4dd580907ff0bc48d9c
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -57,6 +81,41 @@
     "last_opened_file_path": "C:/Users/ASUS/Desktop/innowise/all_projects/my_project/innowise_laboratory"
   }
 }]]></component>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/main-logic&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.python.group.settings&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="innowise_laboratory" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lecture_1/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+>>>>>>> fdb8596da9d56bfc11d2b4dd580907ff0bc48d9c
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,6 +125,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="16ca4dd8-7851-4c0a-8e51-cbf043d111e8" name="Changes" comment="" />
       <created>1763629928933</created>
       <option name="number" value="Default" />
@@ -86,5 +146,47 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create mini-profile" />
     <option name="LAST_COMMIT_MESSAGE" value="Create mini-profile" />
+=======
+      <changelist id="83f97557-4611-4aa8-bc0a-a9bf4e6275d7" name="Changes" comment="" />
+      <created>1762793629531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762793629531</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit: Project structure and gitignore">
+      <option name="closed" value="true" />
+      <created>1762793818040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762793818040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit: Project structure and gitignore&#10;Add virtual environment">
+      <option name="closed" value="true" />
+      <created>1762794747236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762794747236</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit: Project structure and gitignore" />
+    <MESSAGE value="Initial commit: Project structure and gitignore&#10;Add virtual environment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit: Project structure and gitignore&#10;Add virtual environment" />
+>>>>>>> fdb8596da9d56bfc11d2b4dd580907ff0bc48d9c
   </component>
 </project>
