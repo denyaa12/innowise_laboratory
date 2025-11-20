@@ -1,0 +1,351 @@
+Index: lecture_1/.idea/inspectionProfiles/profiles_settings.xml
+===================================================================
+diff --git a/lecture_1/.idea/inspectionProfiles/profiles_settings.xml b/lecture_1/.idea/inspectionProfiles/profiles_settings.xml
+deleted file mode 100644
+--- a/lecture_1/.idea/inspectionProfiles/profiles_settings.xml	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
++++ /dev/null	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+Index: lecture_1/.idea/vcs.xml
+===================================================================
+diff --git a/lecture_1/.idea/vcs.xml b/lecture_1/.idea/vcs.xml
+deleted file mode 100644
+--- a/lecture_1/.idea/vcs.xml	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
++++ /dev/null	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: lecture_1/.idea/workspace.xml
+===================================================================
+diff --git a/lecture_1/.idea/workspace.xml b/lecture_1/.idea/workspace.xml
+deleted file mode 100644
+--- a/lecture_1/.idea/workspace.xml	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
++++ /dev/null	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
+@@ -1,157 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="83f97557-4611-4aa8-bc0a-a9bf4e6275d7" name="Changes" comment="Initial commit: Project structure and gitignore&#10;Add virtual environment&#10;Add main logic and colored output script">
+-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../file.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../pyproject.toml" beforeDir="false" />
+-    </list>
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Python Script" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
+-      </map>
+-    </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+-  </component>
+-  <component name="GitHubPullRequestSearchHistory">{
+-  &quot;lastFilter&quot;: {
+-    &quot;state&quot;: &quot;OPEN&quot;,
+-    &quot;assignee&quot;: &quot;denyaa12&quot;
+-  }
+-}</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/denyaa12/innowise_laboratory.git&quot;,
+-    &quot;accountId&quot;: &quot;ae127b07-dcf2-4a0f-be0d-b4aca317b72b&quot;
+-  }
+-}</component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 1
+-}</component>
+-  <component name="ProjectId" id="35INSmCO6ubxglDa9MtcyuqbFLa" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;feature/main-logic&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+-  }
+-}</component>
+-  <component name="RunManager">
+-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+-      <module name="innowise_laboratory" />
+-      <option name="ENV_FILES" value="" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture_1" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lecture_1/main.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-  </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="83f97557-4611-4aa8-bc0a-a9bf4e6275d7" name="Changes" comment="" />
+-      <created>1762793629531</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1762793629531</updated>
+-    </task>
+-    <task id="LOCAL-00001" summary="Initial commit: Project structure and gitignore">
+-      <option name="closed" value="true" />
+-      <created>1762793818040</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1762793818040</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="Initial commit: Project structure and gitignore&#10;Add virtual environment">
+-      <option name="closed" value="true" />
+-      <created>1762794747236</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1762794747236</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="Initial commit: Project structure and gitignore&#10;Add virtual environment&#10;Add main logic and colored output script">
+-      <option name="closed" value="true" />
+-      <created>1762796315207</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1762796315207</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="Initial commit: Project structure and gitignore&#10;Add virtual environment&#10;Add main logic and colored output script">
+-      <option name="closed" value="true" />
+-      <created>1762796337969</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1762796337969</updated>
+-    </task>
+-    <option name="localTasksCounter" value="5" />
+-    <servers />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Initial commit: Project structure and gitignore" />
+-    <MESSAGE value="Initial commit: Project structure and gitignore&#10;Add virtual environment" />
+-    <MESSAGE value="Initial commit: Project structure and gitignore&#10;Add virtual environment&#10;Add main logic and colored output script" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit: Project structure and gitignore&#10;Add virtual environment&#10;Add main logic and colored output script" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: lecture_1/.idea/misc.xml
+===================================================================
+diff --git a/lecture_1/.idea/misc.xml b/lecture_1/.idea/misc.xml
+deleted file mode 100644
+--- a/lecture_1/.idea/misc.xml	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
++++ /dev/null	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+Index: lecture_1/.idea/innowise_laboratory.iml
+===================================================================
+diff --git a/lecture_1/.idea/innowise_laboratory.iml b/lecture_1/.idea/innowise_laboratory.iml
+deleted file mode 100644
+--- a/lecture_1/.idea/innowise_laboratory.iml	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
++++ /dev/null	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module version="4">
+-  <component name="PyDocumentationSettings">
+-    <option name="format" value="PLAIN" />
+-    <option name="myDocStringFormat" value="Plain" />
+-  </component>
+-  <component name="TestRunnerService">
+-    <option name="PROJECT_TEST_RUNNER" value="py.test" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+deleted file mode 100644
+--- a/.idea/workspace.xml	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
++++ /dev/null	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
+@@ -1,80 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ChangeListManager">
+-    <list default="true" id="16ca4dd8-7851-4c0a-8e51-cbf043d111e8" name="Changes" comment="Create mini-profile" />
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Python Script" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "denyaa12"
+-  }
+-}]]></component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/denyaa12/innowise_laboratory.git",
+-    "accountId": "ae127b07-dcf2-4a0f-be0d-b4aca317b72b"
+-  }
+-}]]></component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 4
+-}]]></component>
+-  <component name="ProjectId" id="35jiYSbVLM3B7lzBNeltYDLVQOS" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "master",
+-    "last_opened_file_path": "C:/Users/ASUS/Desktop/innowise/all_projects/my_project/innowise_laboratory"
+-  }
+-}]]></component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="16ca4dd8-7851-4c0a-8e51-cbf043d111e8" name="Changes" comment="" />
+-      <created>1763629928933</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1763629928933</updated>
+-    </task>
+-    <task id="LOCAL-00001" summary="Create mini-profile">
+-      <option name="closed" value="true" />
+-      <created>1763630146394</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1763630146394</updated>
+-    </task>
+-    <option name="localTasksCounter" value="2" />
+-    <servers />
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Create mini-profile" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Create mini-profile" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: lecture_1/.idea/lecture_1.iml
+===================================================================
+diff --git a/lecture_1/.idea/lecture_1.iml b/lecture_1/.idea/lecture_1.iml
+deleted file mode 100644
+--- a/lecture_1/.idea/lecture_1.iml	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
++++ /dev/null	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module version="4">
+-  <component name="PyDocumentationSettings">
+-    <option name="format" value="PLAIN" />
+-    <option name="myDocStringFormat" value="Plain" />
+-  </component>
+-  <component name="TestRunnerService">
+-    <option name="PROJECT_TEST_RUNNER" value="py.test" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/innowise_laboratory.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.9\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n  <component name=\"PyDocumentationSettings\">\r\n    <option name=\"format\" value=\"PLAIN\" />\r\n    <option name=\"myDocStringFormat\" value=\"Plain\" />\r\n  </component>\r\n  <component name=\"TestRunnerService\">\r\n    <option name=\"PROJECT_TEST_RUNNER\" value=\"py.test\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/innowise_laboratory.iml b/.idea/innowise_laboratory.iml
+--- a/.idea/innowise_laboratory.iml	(revision 698f40838a2a4b5dfd2b2110f462fa64f44ccf37)
++++ b/.idea/innowise_laboratory.iml	(date 1763630739587)
+@@ -1,7 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module type="PYTHON_MODULE" version="4">
+   <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.venv" />
++    </content>
+     <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
